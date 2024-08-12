@@ -7,7 +7,11 @@ body > header {
 
 header nav {
     font-size: 22px;
-    margin-right: 10px;
+    padding-right: 2%;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
 }
 
 a {
@@ -38,8 +42,13 @@ article, h1, header{
     padding: 1%;
 }
 
-.entreteniment {
+.tecnologia {
     background-color: rgba(0, 119, 255, 0.356);
+    padding: 1%;
+}
+
+.entreteniment {
+    background-color: rgba(137, 43, 226, 0.103);
     padding: 1%;
 }
 
@@ -87,7 +96,7 @@ h3 {
     text-decoration: none;
     
 }
-.economy a{
+.tecnologia a{
     background-color: rgba(255, 68, 0, 0.452);
     color: white;
     padding: 10px;
@@ -95,10 +104,18 @@ h3 {
 
 }
 
-.entreteniment a{
+.tecnologia a{
     background-color: aquamarine;
     color: black;
     padding: 10px;
     text-decoration: none;
 
 }
+
+.entreteniment a{
+    background-color: crimson;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
